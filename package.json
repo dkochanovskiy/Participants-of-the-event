@@ -1,5 +1,5 @@
 {
-  "name": "helloapp",
+  "name": "participantsoftheevent",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
@@ -16,11 +16,12 @@
     "@angular/platform-browser": "~4.0.0",
     "@angular/platform-browser-dynamic": "~4.0.0",
     "@angular/router": "~4.0.0",
-
+    "angular-2-local-storage": "^1.0.1",
     "angular-in-memory-web-api": "~0.3.0",
-    "systemjs": "0.19.40",
+    "angular2-local-storage": "^0.2.0",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
+    "systemjs": "0.19.40",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
